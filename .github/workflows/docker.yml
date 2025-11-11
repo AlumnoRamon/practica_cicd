@@ -1,4 +1,3 @@
----
 name: Publicar imagen Docker
 on:
   push:
@@ -33,4 +32,4 @@ jobs:
           push: true
           tags: |
             alumnoramon/practica_cicd:latest
-            ghcr.io/AlumnoRamon/practica_cicd:latest
+            ghcr.io/alumnoramon/practica_cicd:latest
